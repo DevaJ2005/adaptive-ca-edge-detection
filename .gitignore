@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.Python/
+build/
+dist/
+venv/
+.venv/
+
+# Numba cache
+.numba_cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+
+# Output images - crucial to IGNORE these generated files
+data/output_images/
